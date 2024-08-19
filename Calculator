@@ -1,0 +1,15 @@
+//A constant variable that is set to 293
+const kelvin = 293;
+console.log("the temperature is " + kelvin + " degrees Kelvin");
+
+//Creating a let variable, that can be changed, and including the change so it makes sense.
+let celsius = Math.floor(kelvin - 273);
+console.log("the temperature is " + celsius + " degrees Celsius");
+
+//Creating a let variable that calculates and stores fahrenheit based on Celsius.
+let fahrenheit = Math.floor(celsius * (9 / 5) + 32);
+//Writes fahrenheit to log and rounds it down to the nearest integer.
+console.log("the temperature is " + fahrenheit + " degrees Fahrenheit");
+
+let newton = Math.floor(celsius * (33 / 100));
+console.log("the temperature is " + newton + " degrees Newton");
