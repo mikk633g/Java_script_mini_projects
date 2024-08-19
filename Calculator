@@ -1,15 +1,19 @@
 //A constant variable that is set to 293
 const kelvin = 293;
+//Writes Kelvin to log and making it say "the temperature is ____ degrees Kelvin".
 console.log("the temperature is " + kelvin + " degrees Kelvin");
 
-//Creating a let variable, that can be changed, and including the change so it makes sense.
+//Creating a let variable, that can be changed, and including the calculation and rounds it down to the nearest integer.
 let celsius = Math.floor(kelvin - 273);
+//Writes Celsius to log "the temperature is ____ degrees Celsius".
 console.log("the temperature is " + celsius + " degrees Celsius");
 
-//Creating a let variable that calculates and stores fahrenheit based on Celsius.
+//Creating a let variable that calculates and rounds it down to the nearest integer and stores fahrenheit temp  based on earlier calculated Celsius temp.
 let fahrenheit = Math.floor(celsius * (9 / 5) + 32);
-//Writes fahrenheit to log and rounds it down to the nearest integer.
+//Writes fahrenheit to log "the temperature is ____ degrees Fahrenheit".
 console.log("the temperature is " + fahrenheit + " degrees Fahrenheit");
 
+//Creating a variable that calculates and stores Newton temp based on the earlier calculated Celsius temp and rounds it down to the nearest integer.
 let newton = Math.floor(celsius * (33 / 100));
+//Writes Newton to log "the temperature is ____ degrees Newton".
 console.log("the temperature is " + newton + " degrees Newton");
