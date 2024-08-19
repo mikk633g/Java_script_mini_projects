@@ -1,0 +1,27 @@
+//A Constant that is set to human age
+const myAge = 105;
+
+//Variable that says early years of a dog is the first 2
+let earlyYears = 2;
+
+//Calculates the early years of a dog, what it estimates as dog years
+earlyYears *= 10.5;
+//Writes the earlyYears calculations to log
+console.log(earlyYears);
+
+//Subtracting 2 from my age and setting it up as a variable
+let laterYears = myAge - 2;
+
+//taking the variable laterYears and multiplying by 4
+laterYears *= 4;
+//Writes the laterYears calculations to log
+console.log(laterYears);
+
+//Taking the two earlier calculations and adding them together
+myAgeInDogYears = earlyYears + laterYears;
+
+//creates a variable called myName and sets it to Lower Case
+let myName = "myname".toLowerCase();
+
+//Writes to log the end calc, my age and my name in one sentence
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
